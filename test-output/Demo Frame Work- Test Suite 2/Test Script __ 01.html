@@ -1,0 +1,126 @@
+<html>
+<head>
+<title>TestNG:  Test Script :: 01</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test Script :: 01</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Aug 27 14:56:31 IST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>357 seconds (357409 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.index.GeneralIndex.purchaseorcheckout()'><b>purchaseorcheckout</b><br>Test class: com.index.GeneralIndex<br/>
+<a href="#Output-81825262" onClick='toggleBox("Output-81825262", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-81825262" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-81825262">
+<strong> <h3 style="color:DarkViolet"> To verify that user is able to checkout with all valid fields </h3> </strong><br/>
+<strong> <h3 style="color:DarkViolet"> --------------------------------------------------------------------------</h3> </strong><br/>
+<br><strong>Step 1. open : http://toolsqa.com</strong></br><br/>
+<br><strong>Step 2. click on Demo Sites Menu</strong></br><br/>
+<br><strong>Step 3. click on E Commerce Demo site link</strong></br><br/>
+</br>--->  E Commerce Demo site Home page is opened  <---<br/>
+<br><strong>Step 4. Mouse Hover on Product Category</strong></br><br/>
+<br><strong>Step 5. Click on ipads link</strong></br><br/>
+<br><strong>Step 6. Click on any product and open the product detail page</strong></br><br/>
+<br><strong>Step 7. Add product to the CART</strong></br><br/>
+<br><strong>Step 8. Open the Cart</strong></br><br/>
+<br><Strong><font color=#009000>Verify that product added to the cart</font></strong></br><br/>
+</br>---> Product is added to the cart <---<br/>
+<br><strong>Step 9. Update the quantity of the product from 1 to 2</strong></br><br/>
+<br><strong>Step 10. Click on Update Button</strong></br><br/>
+</br>---> Click on Update button  <---<br/>
+<br><Strong><font color=#009000>Verify that the product quality has been updated in the cart</font></strong></br><br/>
+</br>---> Product quantity is upadted into the cart <---<br/>
+<br><strong>Step 11. Click on Continue Button</strong></br><br/>
+<br><strong>Step 12. Enter Email Address in Billing Information</strong></br><br/>
+</br>--->Enter Valid Emailid = kiwiqatestvipul@gmail.com <---<br/>
+<br><strong>Step 13. Enter Your billing/contact details</strong></br><br/>
+</br>--->Enter Valid FirstName = vipul <---<br/>
+</br>--->Enter Valid LastName = patel <---<br/>
+</br>--->Enter Valid Address = 01 kiwiqa service ltd. <---<br/>
+</br>--->Enter Valid City =  Ahmedabad <---<br/>
+</br>--->Enter Valid state/Province = Gujrat <---<br/>
+</br>--->Enter Valid state/Province = India <---<br/>
+</br>--->Enter Valid state/Province = 384265 <---<br/>
+</br>--->Enter Valid state/Province = 1234567890 <---<br/>
+<br><strong>Step 14. Enter Shipping Address Information/Details</strong></br><br/>
+</br>---> Chose Shipping Address same as Billing Address <---<br/>
+<br><strong>Step 15. Click on Purchase Button</strong></br><br/>
+</br>---> Click on purchase button  <---<br/>
+<br><strong>Order placed successfully</strong></br><br/>
+</br><br><Strong><font color=#008000>Pass</font></strong></br><br/>
+</div>
+</td>
+<td></td>
+<td>335</td>
+<td>com.index.GeneralIndex@31ef45e3</td></tr>
+</table><p>
+</body>
+</html>

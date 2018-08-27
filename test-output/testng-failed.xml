@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [E-Signature - Test Suite 1]" parallel="tests">
+  <parameter name="selenium.port" value="4444"/>
+  <parameter name="selenium.host" value="localhost"/>
+  <parameter name="selenium.browser" value="chrome"/>
+  <parameter name="selenium.url" value=" https://go-env-syd1.clickandsign.net:11443/dashboard/"/>
+  <test name="Create a package using IBM Digital Contracts Demo v. 1 workflow  borrowe with Guarantor and relationship manager:: 01(failed)" parallel="tests">
+    <classes>
+      <class name="com.index.GeneralIndex">
+        <methods>
+          <include name="esign_createpackage_borrowerGuarantorRelashioshipmanager"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.index.GeneralIndex -->
+    </classes>
+  </test> <!-- Create a package using IBM Digital Contracts Demo v. 1 workflow  borrowe with Guarantor and relationship manager:: 01(failed) -->
+</suite> <!-- Failed suite [E-Signature - Test Suite 1] -->

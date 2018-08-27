@@ -1,0 +1,209 @@
+<html>
+<head>
+<title>TestNG:  All Valid Data :: 06</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>All Valid Data :: 06</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Aug 27 14:51:13 IST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>93 seconds (93260 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.index.GeneralIndex.allvaliddata()'><b>allvaliddata</b><br>Test class: com.index.GeneralIndex<br/>
+<a href="#Output-1713878247" onClick='toggleBox("Output-1713878247", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1713878247" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1713878247">
+<strong> <h3 style="color:DarkViolet"> To verify that user is able to register with all valid details</h3> </strong><br/>
+<strong> <h3 style="color:DarkViolet"> --------------------------------------------------------------------------</h3> </strong><br/>
+<br><strong>Step 1. open : http://demoqa.com/registration/</strong></br><br/>
+</br>--->Home page open<br/>
+<br><strong>Step 2. Enter Valid First Name</strong></br><br/>
+</br>--->Enter Invalid Emailid = vipul <---<br/>
+<br><strong>Step 3. Enter Valid Last Name</strong></br><br/>
+</br>--->Enter Invalid Emailid = patel <---<br/>
+<br><strong>Step 4. Select Marital Status</strong></br><br/>
+</br>--->Selected Maritalstatus = single <---<br/>
+</br>--->Selected Maritalstatus = married <---<br/>
+</br>--->Selected Maritalstatus = divorced <---<br/>
+<br><strong>Step 5. Select Hobby</strong></br><br/>
+</br>--->Selected Hobby = dance <---<br/>
+</br>--->Selected Hobby = reading <---<br/>
+</br>--->Selected Hobby = cricket <---<br/>
+<br><strong>Step 6. Select Country</strong></br><br/>
+</br>---> Selected Country = Indian <---<br/>
+<br><strong>Step 7. Select Date of Birth</strong></br><br/>
+</br>--->Selected Date Of Birth = 12/30/1982 <---<br/>
+<br><strong>Step 8. Enter Valid Phone Number</strong></br><br/>
+</br>--->Enter Valid Phone Number = 9876543210 <---<br/>
+<br><strong>Step 9. Enter Valid User Name</strong></br><br/>
+</br>--->Enter Valid User Name = vipulkiwiqa321 <---<br/>
+<br><strong>Step 10. Enter Valid Emailid</strong></br><br/>
+</br>--->Enter Valid Emailid = kiwiqatestvipul@gmail.com <---<br/>
+<br><strong>Step 11. Select Your Profile Picture</strong></br><br/>
+</br>--->Selected Profile Picture From  = C:/Users/Public/Pictures/Sample Pictures/Tulips.jpg <---<br/>
+<br><strong>Step 12. Enter About YourSelf</strong></br><br/>
+</br>--->About YourSelf  = hello, I am working in kiwiqa <---<br/>
+<br><strong>Step 13. Enter Valid Password</strong></br><br/>
+</br>--->Enter Invalid Password = kiwiqa123456 <---<br/>
+<br><strong>Step 14. Enter Valid Confirm Password</strong></br><br/>
+</br>--->Enter Confrim Password = kiwiqa123456 <---<br/>
+<br><strong>Step 15. Click on Submit button</strong></br><br/>
+<br> <b>Please look to the screenshot - </b><br/>
+</br><br><Strong><font color=#FF0000>--Failed</font></strong><br/>
+</br><a href='../test-output/screenshots/0827145243820allvaliddata.png' target='_new'>0827145243820allvaliddata.png</a><br/>
+<br></br><h3>Failure Reason:</h3><br/>
+<br></br>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//p[contains(text(),&apos;Thank you for your registration&apos;)]&quot;}<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//p[contains(text(),&apos;Thank you for your registration&apos;)]&quot;}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;
+System info: host: &apos;DELL-PC&apos;, ip: &apos;192.168.1.114&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\DELL\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}
+Session ID: 3ab06c88b033cd3e4ab49f5c9d6bf40a
+*** Element info: {Using=xpath, value=//p[contains(text(),&apos;Thank you for your registration&apos;)]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at com.verification.GeneralVerification.successfullregistration(GeneralVerification.java:154)
+	at com.index.GeneralIndex.allvaliddata(GeneralIndex.java:317)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 20 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1713878247", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1713878247'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//p[contains(text(),&apos;Thank you for your registration&apos;)]&quot;}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;
+System info: host: &apos;DELL-PC&apos;, ip: &apos;192.168.1.114&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\DELL\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}
+Session ID: 3ab06c88b033cd3e4ab49f5c9d6bf40a
+*** Element info: {Using=xpath, value=//p[contains(text(),&apos;Thank you for your registration&apos;)]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at com.verification.GeneralVerification.successfullregistration(GeneralVerification.java:154)
+	at com.index.GeneralIndex.allvaliddata(GeneralIndex.java:317)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:38)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:382)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>76</td>
+<td>com.index.GeneralIndex@53b32d7</td></tr>
+</table><p>
+</body>
+</html>

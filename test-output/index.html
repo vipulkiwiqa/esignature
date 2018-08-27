@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-E-Signature_-_Test_Suite_1">
+              <span class="suite-name border-passed">E-Signature - Test Suite 1</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-E-Signature_-_Test_Suite_1">
+                    <span>F:\eclipse-workspace\e-Signature\esignature\Build\esignindex.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-E-Signature_-_Test_Suite_1">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-E-Signature_-_Test_Suite_1">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-E-Signature_-_Test_Suite_1">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-E-Signature_-_Test_Suite_1">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-E-Signature_-_Test_Suite_1">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-E-Signature_-_Test_Suite_1">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">1 method,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-E-Signature_-_Test_Suite_1" class="hide-methods passed suite-E-Signature_-_Test_Suite_1"> (hide)</a> <!-- hide-methods passed suite-E-Signature_-_Test_Suite_1 -->
+                      <a href="#" panel-name="suite-E-Signature_-_Test_Suite_1" class="show-methods passed suite-E-Signature_-_Test_Suite_1"> (show)</a> <!-- show-methods passed suite-E-Signature_-_Test_Suite_1 -->
+                    </span>
+                    <div class="method-list-content passed suite-E-Signature_-_Test_Suite_1">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-E-Signature_-_Test_Suite_1" title="com.index.GeneralIndex" hash-for-method="esign_createpackage_borrowerGuarantorRelashioshipmanager">esign_createpackage_borrowerGuarantorRelashioshipmanager</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-E-Signature_-_Test_Suite_1 -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-E-Signature_-_Test_Suite_1" class="panel E-Signature_-_Test_Suite_1">
+          <div class="suite-E-Signature_-_Test_Suite_1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.index.GeneralIndex</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="esign_createpackage_borrowerGuarantorRelashioshipmanager">
+                  </a> <!-- esign_createpackage_borrowerGuarantorRelashioshipmanager -->
+                  <span class="method-name">esign_createpackage_borrowerGuarantorRelashioshipmanager</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-E-Signature_-_Test_Suite_1-class-passed -->
+        </div> <!-- panel E-Signature_-_Test_Suite_1 -->
+        <div panel-name="test-xml-E-Signature_-_Test_Suite_1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">F:\eclipse-workspace\e-Signature\esignature\Build\esignindex.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;E-Signature - Test Suite 1&quot; parallel=&quot;tests&quot;&gt;
+  &lt;parameter name=&quot;selenium.port&quot; value=&quot;4444&quot;/&gt;
+  &lt;parameter name=&quot;selenium.host&quot; value=&quot;localhost&quot;/&gt;
+  &lt;parameter name=&quot;selenium.browser&quot; value=&quot;chrome&quot;/&gt;
+  &lt;parameter name=&quot;selenium.url&quot; value=&quot; https://go-env-syd1.clickandsign.net:11443/dashboard/&quot;/&gt;
+  &lt;test name=&quot;Create a package using IBM Digital Contracts Demo v. 1 workflow  borrowe with Guarantor and relationship manager:: 01&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.index.GeneralIndex&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;esign_createpackage_borrowerGuarantorRelashioshipmanager&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.index.GeneralIndex --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Create a package using IBM Digital Contracts Demo v. 1 workflow  borrowe with Guarantor and relationship manager:: 01 --&gt;
+&lt;/suite&gt; &lt;!-- E-Signature - Test Suite 1 --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-E-Signature_-_Test_Suite_1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for E-Signature - Test Suite 1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Create a package using IBM Digital Contracts Demo v. 1 workflow  borrowe with Guarantor and relationship manager:: 01 (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-E-Signature_-_Test_Suite_1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for E-Signature - Test Suite 1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-E-Signature_-_Test_Suite_1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for E-Signature - Test Suite 1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_E-Signature_-_Test_Suite_1');
+function tableData_E-Signature_-_Test_Suite_1() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(1);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'esign_createpackage_borrowerGuarantorRelashioshipmanager')
+data.setCell(0, 2, 'com.index.GeneralIndex')
+data.setCell(0, 3, 166363);
+window.suiteTableData['E-Signature_-_Test_Suite_1']= { tableData: data, tableDiv: 'times-div-E-Signature_-_Test_Suite_1'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-E-Signature_-_Test_Suite_1">
+              </div> <!-- times-div-E-Signature_-_Test_Suite_1 -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-E-Signature_-_Test_Suite_1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for E-Signature - Test Suite 1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">esign_createpackage_borrowerGuarantorRelashioshipmanager</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><strong> <h3 style="color:DarkViolet"> To verify that user is able to login with valid credentials</h3> </strong></span>
+                <span class="reporter-method-output"><strong> <h3 style="color:DarkViolet"> --------------------------------------------------------------------------</h3> </strong></span>
+                <span class="reporter-method-output"><br><strong>Step 1. open : https://go-env-syd1.clickandsign.net:11443/dashboard/</strong></br></span>
+                <span class="reporter-method-output"></br>--->  Home page is open  <---</span>
+                <span class="reporter-method-output"></br><br><Strong><font color=#008000>Pass</font></strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 2. Enter Username</strong></br></span>
+                <span class="reporter-method-output"></br>--> Enter Username :service+sydtest@e-signsolutions.com<---</span>
+                <span class="reporter-method-output"><br><strong>Step 3. Enter Password</strong></br></span>
+                <span class="reporter-method-output"></br>--> Enter password :N!vattelapesca<---</span>
+                <span class="reporter-method-output"><br><strong>Step 4. Click on Login Button</strong></br></span>
+                <span class="reporter-method-output"></br>--> clicked on Login Button <---</span>
+                <span class="reporter-method-output"></br>Logged in successfully!!</span>
+                <span class="reporter-method-output"></br><br><Strong><font color=#008000>Pass</font></strong></br></span>
+                <span class="reporter-method-output"><br><strong>Step 5. Select the Workflow</strong></br></span>
+                <span class="reporter-method-output"></br>--> Selected the work Flow:IBM Digital Contracts Demo v. 1 <---</span>
+                <span class="reporter-method-output"><br><strong>Step 6. Click on Create button</strong></br></span>
+                <span class="reporter-method-output"></br>--> clicked on Create Button <---</span>
+                <span class="reporter-method-output"><br><strong>Step 7. Enter Package Reference</strong></br></span>
+                <span class="reporter-method-output"></br>--> Enter Packagereference :Packagereference_vkv1 <---</span>
+                <span class="reporter-method-output"><br><strong>Step 8. Enter First Name</strong></br></span>
+                <span class="reporter-method-output"></br>--> Enter First Name :FirstnamePOEc <---</span>
+                <span class="reporter-method-output"><br><strong>Step 9. Enter Last Name</strong></br></span>
+                <span class="reporter-method-output"></br>--> Enter Last Name :LastnameuKzO <---</span>
+                <span class="reporter-method-output"><br><strong>Step 10. Enter Email Address</strong></br></span>
+                <span class="reporter-method-output"></br>--> Enter Email Address :bEPz@mailinator.com <---</span>
+                <span class="reporter-method-output"><br><strong>Step 11. Enter Phone Number</strong></br></span>
+                <span class="reporter-method-output"></br>--> Enter Phone Number :+61444763916 <---</span>
+                <span class="reporter-method-output"><br><strong>Step 12. Select WAFR Attachments</strong></br></span>
+                <span class="reporter-method-output"></br>Number of Documents Attached :4</span>
+                <span class="reporter-method-output"><br><strong>Step 13. Select Guarantor Option</strong></br></span>
+                <span class="reporter-method-output"></br>--> Clicked on Guarantor Option <---</span>
+                <span class="reporter-method-output"><br><strong>Step 14. Enter Guarantor First Name</strong></br></span>
+                <span class="reporter-method-output"></br>--> Enter Guarantor First Name :FirstnamefnOD <---</span>
+                <span class="reporter-method-output"><br><strong>Step 15. Enter Guarantor Last Name</strong></br></span>
+                <span class="reporter-method-output"></br>--> Enter Guarantor Last Name :LastnamefRul <---</span>
+                <span class="reporter-method-output"><br><strong>Step 16. Enter Guarantor Email Address</strong></br></span>
+                <span class="reporter-method-output"></br>--> Enter Guarantor Email Address :eA3v@mailinator.com <---</span>
+                <span class="reporter-method-output"><br><strong>Step 17. Enter Guarantor Phone Number</strong></br></span>
+                <span class="reporter-method-output"></br>--> Enter Guarantor Phone Number :+61444749934 <---</span>
+                <span class="reporter-method-output"><br><strong>Step 18. Select Relationship Manager Option</strong></br></span>
+                <span class="reporter-method-output"></br>--> Clicked on Relationship Manager Option <---</span>
+                <span class="reporter-method-output"><br><strong>Step 19. Enter Relationship Manager First Name</strong></br></span>
+                <span class="reporter-method-output"></br>--> Enter Relationship Manager First Name :FirstnameGfJk <---</span>
+                <span class="reporter-method-output"><br><strong>Step 20. Enter Relationship Manager Last Name</strong></br></span>
+                <span class="reporter-method-output"></br>--> Enter Relationship Manager Last Name :LastnameXncn <---</span>
+                <span class="reporter-method-output"><br><strong>Step 21. Enter Relationship Manager Email Address</strong></br></span>
+                <span class="reporter-method-output"></br>--> Enter Relationship Manager Email Address :iITA@mailinator.com <---</span>
+                <span class="reporter-method-output"><br><strong>Step 22. Enter Relationship Manager Phone Number</strong></br></span>
+                <span class="reporter-method-output"></br>--> Enter Relationship Manager Phone Number :+61444446403 <---</span>
+                <span class="reporter-method-output"><br><strong>Step 23. click on Relationship Manager required documents</strong></br></span>
+                <span class="reporter-method-output"></br>--> click on required relationship manager document <--</span>
+                <span class="reporter-method-output"><br><strong>Step 24. Click on Create Button</strong></br></span>
+                <span class="reporter-method-output"></br>--> clicked on Create Button <---</span>
+                <span class="reporter-method-output"><br><strong>Step 25. Click on Cloud Service Agreement</strong></br></span>
+                <span class="reporter-method-output"></br>--> clicked on Cloud Service Aggrement <---</span>
+                <span class="reporter-method-output"><br><strong>Step 26. Upload the Cloud Service Agreement</strong></br></span>
+                <span class="reporter-method-output"></br>--> Uploaded the Aggrement <---</span>
+                <span class="reporter-method-output"><br><strong>Step 27. Click on SendNow Button</strong></br></span>
+                <span class="reporter-method-output"></br>--> Clicked on SendNow button <---</span>
+                <span class="reporter-method-output"><br><strong>Step 28. Confirm the package with valid details</strong></br></span>
+                <span class="reporter-method-output"><br><Strong><font color=#009000>--> package name is confirmed <--</font></strong></br></span>
+                <span class="reporter-method-output"></br>-->  Attached Documents : Certificate of Insurance 1 * <--</span>
+                <span class="reporter-method-output"></br>-->  Attached Documents : Certificate of Insurance 3 * <--</span>
+                <span class="reporter-method-output"></br>-->  Attached Documents : DCC * <--</span>
+                <span class="reporter-method-output"></br>-->  Attached Documents : Transfer of Land * <--</span>
+                <span class="reporter-method-output"><br><Strong><font color=#009000>--> Verified number of documents Attached:4 Verify the above documents list <--</font></strong></br></span>
+                <span class="reporter-method-output"><br><Strong><font color=#009000>--> First Name and Last Name is confirmed <--</font></strong></br></span>
+                <span class="reporter-method-output"></br>--> Package Created Successfully!! <--</span>
+                <span class="reporter-method-output"></br><br><Strong><font color=#008000>Pass</font></strong></br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-E-Signature_-_Test_Suite_1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">12 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.index.GeneralIndex</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">phonefield_minimum_length</span>
+                <br/>
+                <span class="ignored-method-name">purchaseorcheckout</span>
+                <br/>
+                <span class="ignored-method-name">usernamealreadyexist</span>
+                <br/>
+                <span class="ignored-method-name">addproducttocartandcheckout</span>
+                <br/>
+                <span class="ignored-method-name">allvaliddata</span>
+                <br/>
+                <span class="ignored-method-name">emailidalreadyexist</span>
+                <br/>
+                <span class="ignored-method-name">invalidemailid</span>
+                <br/>
+                <span class="ignored-method-name">password_minimum_length</span>
+                <br/>
+                <span class="ignored-method-name">blankfields</span>
+                <br/>
+                <span class="ignored-method-name">esign_loginwithvalidcredentials</span>
+                <br/>
+                <span class="ignored-method-name">esign_createpackage_borroweronly</span>
+                <br/>
+                <span class="ignored-method-name">passwordnotmatch</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-E-Signature_-_Test_Suite_1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.index.GeneralIndex</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">fetchSuiteConfiguration(org.testng.TestRunner@2f686d1f)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void com.index.GeneralIndex.esign_createpackage_borrowerGuarantorRelashioshipmanager(), org.t...)</span>
+                <span class="method-start">21 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">esign_createpackage_borrowerGuarantorRelashioshipmanager</span>
+                <span class="method-start">12714 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=esign_createpackage_borrowerGuarantorRelashioshipmanager status=SUCCESS method=Gene...)</span>
+                <span class="method-start">179077 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

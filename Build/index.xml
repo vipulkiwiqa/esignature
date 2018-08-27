@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Registration Form Fill up" verbose="10" parallel="tests"
+	thread-count="1">
+
+	<!-- Put IP of localhost/Grid Hub machine -->
+	<parameter name="selenium.host" value="localhost" />
+
+	<!-- Put Port of localhost RC/Grid Hub machine -->
+	<parameter name="selenium.port" value="4444" />
+
+	<!-- Put target browser name as below: 1) Firefox : firefox 2) chrome : 
+		chrome 3) IExplorer : ie8 / ie9 -->
+	<parameter name="selenium.browser" value="chrome" />
+
+	<!-- <parameter name="selenium.url"
+		value="http://dashboard.staging.clearfunds.io/login" /> -->
+		
+<parameter name="selenium.url"
+		value="http://demoqa.com/registration/" />
+
+
+	<test name="BlankFields Validation Messages:: 01">
+		<classes>
+			<class name="com.index.GeneralIndex">
+				<methods>
+					<include name="blankfields" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="Minimum Length Validation Messages for phone field :: 02">
+		<classes>
+			<class name="com.index.GeneralIndex">
+				<methods>
+					<include name="phonefield_minimum_length" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+
+<test name="Minimum Length Validation Messages for phone field :: 03">
+		<classes>
+			<class name="com.index.GeneralIndex">
+				<methods>
+					<include name="password_minimum_length" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+
+
+
+	<test name="Password Do not Match :: 04">
+		<classes>
+			<class name="com.index.GeneralIndex">
+				<methods>
+					<include name="passwordnotmatch" />  
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	
+	
+	<test name="Invalid Email Id validation :: 05">
+		<classes>
+			<class name="com.index.GeneralIndex">
+				<methods>
+					<include name="invalidemailid" />
+				</methods>
+			</class>
+		</classes>
+	</test> 
+	
+	<test name="All Valid Data :: 06">
+		<classes>
+			<class name="com.index.GeneralIndex">
+				<methods>
+					<include name="allvaliddata" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="All Valid Data Username Exist :: 07">
+		<classes>
+			<class name="com.index.GeneralIndex">
+				<methods>
+					<include name="usernamealreadyexist" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="All Valid Data Username Exist :: 08">
+		<classes>
+			<class name="com.index.GeneralIndex">
+				<methods>
+					<include name="emailidalreadyexist" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+</suite>
